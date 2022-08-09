@@ -35,7 +35,7 @@ Create a simple Node server that will run your app and connect to MongoDB.
 
 ## Step 5
 
-Add a /events POST and GET Request url that will retrieve all events from the db and store an array of events to the db.
+Add a /event POST and GET Request url that will retrieve all events from the following sample db and store an array of events to the db.
 
 Some sample data which you can use to test on:
 
@@ -91,5 +91,5 @@ Some sample data which you can use to test on:
 You should now update the frontend to get your list from your server and read the db to get the events not from sample data but the db and schema you created, you should also now be able to add an event to the db with an updated add form.
 
 
-### A possible olution for each Step can be found in different branches at:
+### A possible Solution for each Step can be found in different branches at:
 https://github.com/ckallemeyn/Workshop-EventStack
